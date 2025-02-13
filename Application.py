@@ -18,3 +18,7 @@ class Application:
 # Новая функция
     def do(self):
         print(f"Работа приложения на Android")
+
+        
+# Изменение в другой ветке.
+
