@@ -14,3 +14,7 @@ class Application:
 
     def run(self):
         print(f"Запуск приложения на платформе: {self.platform}")
+
+# Новая функция
+    def do(self):
+        print(f"Работа приложения на Android")
