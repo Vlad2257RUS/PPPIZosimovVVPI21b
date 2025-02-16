@@ -1,4 +1,8 @@
 # user_interface.py
-def create_interface():
-    print("Создание интерфейса пользователя...")
-    print("Добавление новых функций...")
+class UserInterface:
+    def __init__(self):
+        print("Инициализация интерфейса пользователя...")
+
+    def create_interface(self):
+        print("Создание интерфейса пользователя...")
+        print("Добавление новых функций...")
