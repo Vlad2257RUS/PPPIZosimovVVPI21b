@@ -1,0 +1,146 @@
+<book xmlns="http://docbook.org/ns/docbook" version="5.0">
+    <title>Документация к проекту Блокнот</title>
+    <chapter>
+        <title>Введение</title>
+        <para>Это документация к проекту Блокнот с поддержкой семантики языков программирования.</para>
+    </chapter>
+    <chapter>
+        <title>Модули</title>
+        <section>
+            <title>Application</title>
+            <para>Класс приложения, отвечающий за инициализацию и запуск.</para>
+            <para>Методы:</para>
+            <itemizedlist>
+                <listitem>
+                    <para>__init__(platform)</para>
+                </listitem>
+                <listitem>
+                    <para>init_web_app()</para>
+                </listitem>
+                <listitem>
+                    <para>init_desktop_app()</para>
+                </listitem>
+                <listitem>
+                    <para>run()</para>
+                </listitem>
+            </itemizedlist>
+        </section>
+        <section>
+            <title>AutoComplete</title>
+            <para>Класс автозаполнения для языков программирования.</para>
+            <para>Методы:</para>
+            <itemizedlist>
+                <listitem>
+                    <para>__init__()</para>
+                </listitem>
+                <listitem>
+                    <para>get_suggestions(input_text)</para>
+                </listitem>
+            </itemizedlist>
+        </section>
+        <section>
+            <title>ChangeHistory</title>
+            <para>Класс для отслеживания истории изменений текста.</para>
+            <para>Методы:</para>
+            <itemizedlist>
+                <listitem>
+                    <para>__init__()</para>
+                </listitem>
+                <listitem>
+                    <para>add_version(text)</para>
+                </listitem>
+                <listitem>
+                    <para>undo()</para>
+                </listitem>
+                <listitem>
+                    <para>redo()</para>
+                </listitem>
+            </itemizedlist>
+        </section>
+        <section>
+            <title>FileHandler</title>
+            <para>Класс для работы с файлами.</para>
+            <para>Методы:</para>
+            <itemizedlist>
+                <listitem>
+                    <para>open_file(file_path)</para>
+                </listitem>
+                <listitem>
+                    <para>save_file(file_path, content)</para>
+                </listitem>
+            </itemizedlist>
+        </section>
+        <section>
+            <title>PerformanceOptimizer</title>
+            <para>Класс для оптимизации производительности.</para>
+            <para>Методы:</para>
+            <itemizedlist>
+                <listitem>
+                    <para>cache_data(data)</para>
+                </listitem>
+                <listitem>
+                    <para>async_process(task)</para>
+                </listitem>
+                <listitem>
+                    <para>optimize_large_files(file)</para>
+                </listitem>
+            </itemizedlist>
+        </section>
+        <section>
+            <title>SyntaxHighlighter</title>
+            <para>Класс для подсветки синтаксиса.</para>
+            <para>Методы:</para>
+            <itemizedlist>
+                <listitem>
+                    <para>__init__()</para>
+                </listitem>
+                <listitem>
+                    <para>highlight_syntax(code)</para>
+                </listitem>
+            </itemizedlist>
+        </section>
+        <section>
+            <title>UserInterface</title>
+            <para>Класс пользовательского интерфейса.</para>
+            <para>Методы:</para>
+            <itemizedlist>
+                <listitem>
+                    <para>__init__()</para>
+                </listitem>
+                <listitem>
+                    <para>create_interface()</para>
+                </listitem>
+                <listitem>
+                    <para>change_theme(theme)</para>
+                </listitem>
+            </itemizedlist>
+        </section>
+        <section>
+            <title>ThemeManager</title>
+            <para>Класс для управления темами оформления в проекте Блокнот.</para>
+            <para>Этот класс позволяет загружать, переключать и получать информацию о доступных темах оформления.</para>
+            <para>Методы:</para>
+            <itemizedlist>
+                <listitem>
+                    <para>__init__()</para>
+                </listitem>
+                <listitem>
+                    <para>load_theme(theme_name)</para>
+					                </listitem>
+                <listitem>
+                    <para>switch_theme(theme_name)</para>
+                </listitem>
+                <listitem>
+                    <para>get_available_themes()</para>
+                </listitem>
+                <listitem>
+                    <para>get_current_theme()</para>
+                </listitem>
+            </itemizedlist>
+        </section>
+    </chapter>
+    <chapter>
+        <title>Заключение</title>
+        <para>Документация к проекту Блокнот была создана для облегчения понимания кода и его структуры. Надеемся, что она будет полезна как текущим, так и будущим разработчикам.</para>
+    </chapter>
+</book>
